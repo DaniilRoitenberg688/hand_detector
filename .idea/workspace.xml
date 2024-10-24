@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b8439baf-f166-4125-a7e4-0482b70fd3cd" name="Changes" comment="Готово распознавание 6 жестов">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/004ac93f-0f7c-49a4-aadc-737e0ad4273c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/00c4b4bd-c4fe-4114-8953-d92e423d6f45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/00e4923b-2e51-4fff-8752-1fa9b9d30908.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/00fc3e17-09a3-4963-8f9d-21d0b8560099.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/01aa0cd7-798e-4e2b-b595-39cc2376a259.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/01d6626a-0321-4272-a915-6ead409d449b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/01f1417f-4899-4a53-a6d3-6156c33a204d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/02af72d2-2857-4f21-907f-158c364e8e1b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/02cd6f32-c76b-4c1b-a70c-8bc26e52e84e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/02f455d2-eb92-4e27-95e0-66b137593c50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/03a6e5e2-24eb-428c-a857-26a95d9c92a9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/03c89351-9fe5-4273-afee-ad3fe203fa2c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/03e317b3-c503-43f0-8c8a-9ad263519957.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/03fc1925-b41d-42d0-b758-0824c1406567.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/04c9de03-8cc8-483f-a664-ab2c9c0208e8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0a045923-3207-43bb-bfeb-7ccd2e0b10f7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0a279b77-0191-4d35-b06b-8bfa84124257.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0a3aed31-c20a-44ba-b86d-d5274889c9b5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0a67f153-2168-4abe-871a-d07eb3d93e39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0a89b461-f2dc-424a-b534-f5fc81d15b34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0aa54e32-7418-484b-b855-9d6c9d04a46c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0ac49144-caf4-4099-83c3-4a13b7d6ec35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0aef2efa-2a64-4172-b597-246a4dd28fdb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0b13fd5a-a003-41a6-b12c-76f548fd78a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0b34f072-9772-44b6-abec-5d59f2786bd1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0b57b077-d7c2-4308-b2ea-80a943fb1e5a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0b6f8952-dfb9-4734-9617-774011a9fb7d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0b87a75f-0b2d-4065-9c51-1cc534dfd229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0bb0c979-d52e-4c43-9f6f-46ecb1c72622.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0bd60f8a-dfda-4b37-9a0f-fc53bcd10338.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0c060bcb-2739-40e4-965b-e4dca7d5bcef.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0c1c9f73-6807-4a66-b4ca-4a2cd90626c8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0c459496-6e8c-4637-ae95-8d85dc75ede6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0c7564cd-191a-4d2f-92c8-7c161331e610.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0c96f0c1-aff3-4865-abaa-0ac2c7ff3fd7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0cc86cb9-2aab-4ce3-9ce1-efe6d8c82552.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0cebdf87-02b5-485d-b688-baa982814d92.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0d043574-3a8c-4055-a688-36176930fd8c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0d280649-06e6-433f-9cae-fef42209a0ca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0d4dfa11-fbb5-493c-bee4-7ebf13ed839a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0d72367c-e360-43b1-9c08-5ddea11c3b8c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0d952f23-f65c-4d06-b928-85c7211fd4b8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0dbf7e22-5f69-4d83-9d5f-cfce61be283f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0e022ee9-74fd-44fe-adad-60c11835e44f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0e23280f-11dd-47a7-8d63-7f5531f1c041.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0e45ec67-25d6-4191-8e49-3b90eb8ddf0b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0e7515e6-e053-4aca-a173-07ca68e5e796.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0e998cdd-e804-444c-bcad-de82cf01afbc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0ebe9c06-1c21-478b-b9f6-2eef42c48f17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0ed8f8f3-52a8-492e-9425-167b28d94267.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0ef4f7e2-1543-4d39-95b1-5a0fe5ed921a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0f0ef7ba-ea87-4f24-9760-053a79c104c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0f3b828f-4918-40ee-a345-d34f8d186b13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0f6efc85-4b56-4ba5-8797-3c7ae5b126c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0f84e814-9fef-422b-9cf9-d69803b57c25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0fa459fe-ede9-42b4-8542-6565a2e3ba45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0fc9ab20-02bd-4904-ae6a-9bc0b4e0c514.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/0ff4be5b-4b0c-4d3a-899c-87b40485bc20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1a2659bc-8e3e-4d70-a813-40b5fed472af.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1a461329-eda1-413d-89b8-29d327785635.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1a5bff8b-a1f2-48b5-9736-c2fb0b4b9c8a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1a7e5e5b-b9f6-4fd8-88fc-1f504c8874c0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1a958881-a1a5-4b09-a98f-82451845de9d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1ab8ac1d-86e4-49ea-8537-f1d627d36ddf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1addbf5e-c287-42a8-a70f-694817e4b277.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1afa104f-7185-45ee-97a1-8b1162672640.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1b2188b2-81e5-4b1d-93ec-032860cd0082.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1b44c6f6-ee23-4c83-8d87-254941d08a96.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1b6d3b98-9a14-49de-be4f-2633faf554ed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1b9160f3-8f06-4d2a-81f5-75a646032fec.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1bc05cc5-d779-4019-bf20-104e33dae73c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1beba1dc-9b05-432a-8936-9cc6531bba90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1c025ae3-20c9-4d61-919d-cce19529eeac.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1c16d066-8093-4243-8f86-827127a596fa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1c486251-1845-479c-a5a3-c8e78dd5c5fa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1c617e63-84eb-4736-a9f8-44df224156a6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1c89fb16-fbcc-42e0-bfbc-5628d31c3a00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1caf07b5-7232-4824-bd4b-7714503a637a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1ce4209c-7c9c-498f-b750-f40543956904.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1d205574-1651-4c47-b29e-72e521ab240f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1d45d477-6056-41d2-ac79-9d8a0359013a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1d65a858-623a-4984-9420-958c7e870c3e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1d8ea0ed-1a6b-4531-8b6c-de8388c95fd3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1daf7c66-9f83-4f80-8256-f8a06af5c407.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1dd91e7b-a916-40ec-ab47-fc6a103dfb0a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1dfad5ab-ef13-4c5a-940a-ec2cfe158579.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1e26afd2-c202-4a49-a85d-d7ec32518456.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1e4ec2a0-39cd-4ea1-907f-915110b5b1c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1e74675a-42d4-436c-8543-5fc21015f0a7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1e8a61d8-8cf6-4ba3-bcec-a6467f40ac80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1ea1fcc5-797d-45b7-b0d4-910b72fbd0be.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1edd7b43-0579-4924-91b2-9f7a600ec2c6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1efa49b3-8fe9-4e6a-adb2-6e67b3466971.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1f1f31c3-de13-4669-a4a4-32b2daae6730.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1f3edaf0-284f-40df-b73c-c404b0e5cc7b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1f5fb137-c7a9-435b-85dd-6d7b63ea233a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1f814b86-ec2a-4ff3-9887-14b4eb6d4b63.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1fa4a77d-ce64-4b31-9236-daaab926469e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1fc5f07b-610e-480c-acf1-db3cd276927c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/1ff15764-e7f4-4d64-bb3b-cd219f8fd4d0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2a1d5b6b-5517-4aa9-8935-7c20681370c6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2a3fca8b-7880-4119-93bf-fcaaa15d395a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2a5c8f98-2b3c-4a70-8bbd-f9642e5fcce7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2a7fddff-4806-450c-8f6c-86a3780769d0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2aa8df1e-123c-410d-869b-7579f5186aa2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2ac3cae9-517c-4a1e-bf25-c492a0e3ac27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2af25e36-65e6-4e50-bceb-4f383d9c96c0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2b139937-7cf4-4838-84ae-36cb6a4f2eb5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2b30e3a4-559c-4b1c-a7c2-b26cd9babed1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2b4c3b57-6db0-4a14-bf4f-419a5659ce6d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2b6c2067-312e-446c-8de5-069b7fa99497.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2b9597da-155e-44e7-a0b6-3ae201db9fa4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2bbeecbc-6a6d-43c4-9dec-2a06df06f6dd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2be1eb30-964f-4531-96fd-bea929ba7645.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2c01e5e9-da98-45c3-af97-b8536c34d629.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2c2100d4-f563-4c79-9aef-d0a9c5ec3bb7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2c3ec8fe-9502-4a3b-9626-d913e2c28c2b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2c6b8343-9de1-4aab-a486-f134558dedc0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2c92d582-b7da-4599-a93c-818690177a93.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2cb35b12-f7f6-48f0-ae7a-b76e77145a9d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2ccdf57c-0561-4ffc-adaf-3e4bdf77c0dd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2cf87076-08a7-4c50-9af1-5fda5dcd9208.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2d23b095-4ac3-440a-8f86-c140adc00dd0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2d3ec615-af6a-4fd6-be59-6a65bd060bc5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2d61de97-212e-4012-92cd-5bf4fb0e847f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2d8c3c9f-0917-4f65-accf-d5afac8cc0e3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2da1f935-9fb0-4329-bf40-3430c74420d7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2db2f372-ec97-4e5c-8f1d-6be6af41b925.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2de725f5-d37a-4db1-8f3b-ab0c12088b58.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2e1e54b8-f4f7-42a4-99c7-af5a32291b5d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2e4f5fbb-29c1-4859-8891-0e6e64adfc8c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2e81aa0c-cce7-47af-9831-e529de5b28c6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2ea3cf87-65a6-44d1-a91f-4f6a4e360b73.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2ed077a1-4a33-4c1b-b8c7-782d5718b00b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2ef0a844-da89-4ea2-a06e-14677ba9f7ab.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2f180652-7c55-4628-8a77-7febfd6c9547.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2f47d56a-8179-440e-b166-7be7285a7296.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2f611f78-2394-4a65-9f1d-2509d39993c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2f92df6b-3068-4882-a70e-8993320132a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2fbfcfb0-bc1f-4b9a-8b3d-0c7fa306bdb0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/2fde1e5e-11bd-47a9-b45b-e45925bc5a68.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3a2883a3-46bc-49d1-b7fb-0aea44076506.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3a43ac18-8f01-4c44-9a73-3420f5590b90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3a7329b3-1d19-4173-b45b-3627096bd4b0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3a9a8470-415d-4316-9a0d-9de3b5de74a6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3acdfb60-83f3-4a44-a230-42fe4221879e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3af2b028-1914-4db3-94a8-2ef1d7cec299.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3b33e938-a189-49fb-8fe2-cc5c39e0a493.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3b51468c-13b5-4afe-b1f8-c4a21c540087.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3b70c7b3-5346-4611-86ff-a8a46bba4d3f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3b8b75c5-a57a-45b2-8a3f-542b4a899630.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3bbf3d43-1c53-48c4-b23d-684d32a31f8f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3bdf9520-ad04-48e7-9258-e3f3ead9f2b9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3c0dc268-6d87-48b7-a6b9-18840dcecf32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3c3f06f1-cbc2-4827-8700-a86c478080e2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3c65077a-688b-4abb-aa29-e28d22c453d6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3c879fb2-a70b-4ae2-a0da-28c0e427ab4f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3ca64a86-d750-4463-aa91-0badd24aea73.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3cbbed92-86af-49a8-b606-fb38167eb94e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3cda6630-fdb3-43f2-bd23-93c02d16b4d5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3d05aad9-60ed-4fb3-b814-ef174a2a4e98.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3d282263-fed4-4f64-b386-b1678eae7841.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3d453e23-fee4-452e-9515-8bf2168c3831.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3d732bba-5ca8-41e3-b56a-3755fd80afb0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3da456d3-ce37-4d69-a788-a537336f7f81.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3dbd8706-b2f5-42b3-bf90-d7e9fda1b783.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3dd74ba5-708a-41a8-ae83-a387df46fbd5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3e01d1ef-df32-4aa4-b4e6-a51a2700342c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3e1db801-6e25-48b7-8b0f-9b3844b3aa43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3e2ecc0d-a1f0-41b5-9d62-7d8cccf62900.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3e4ee548-553e-43b3-a163-ad1cd12c8dd3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3e6a17c9-f2da-4ed0-8b77-94cea3ab5ee1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3e942017-c806-4ec4-860c-e403f7c5ce93.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3eb91b3f-7b75-4e8e-a755-81e9dbf05023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3ed6df03-bd7e-4af2-ad0b-ec73e7ccc468.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3ef7442b-8ae8-41c3-acd9-bff85604b065.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3f1a817b-a8f1-4dbf-891d-64eb9accb85d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3f34d462-3c2b-457b-a6bb-27c8472c2e33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3f4d1cb1-22d4-4aaa-924f-dd072dbd6c2e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3f71ec74-c6e0-493b-883c-23bbe1ae9e4d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3f8ba08b-ea03-4318-bc80-293514fd43a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3fb308db-fd47-4814-8148-9a3ab19395b7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3fd090b5-80e2-4107-b077-82dccf19579b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/3ffa3c91-a278-463f-90d2-a615818ad0e4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4a221a5e-9517-4ee4-8475-d172a2760b04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4a589abe-a174-410b-b7e8-45712609e4ae.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4a8eb71d-c41a-4a68-ac19-631b5e026651.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4aa7466e-84f0-4148-b1fe-19fa605f7fb6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4ae6df38-7ec3-40e3-a6de-afc0520c7224.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4b0cfeda-5328-4a10-8628-7ccfe6b493d8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4b2934bb-76d1-4397-bd60-eaf97f184194.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4b42f506-ee71-4939-89fa-be4e3b84817a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4b7d4ba8-3dab-4884-8f26-349cb27de928.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4b969347-5556-4892-a41d-5321ba917002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4bb84cf6-9535-4987-b9bd-94573ac9f295.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4be1e9aa-2964-4c83-9024-1fcfc936915f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4bfe6a9c-a1b7-4d49-9d14-e54b7f10c605.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4c212565-e963-43b0-978a-7349f4c3d4b7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4c583b55-572e-4e9a-a906-6847b48937b6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4c8995a3-38f1-4c78-ae55-ede3fde3d271.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4cba9377-8c50-4dd1-9620-cc5e39cefb50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4ce2ef37-d36f-4387-87ba-2481197925f6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4d0d8a15-cb0f-4196-a4b5-67072ec44592.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4d3adae4-8b61-4373-91db-239646589100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4d591abb-79f5-4857-9296-cf2749c790c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4d7dcbbd-800f-4d4f-b161-0e712cb7eb9a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4d8c683d-a5f5-4f36-8fd4-7f3078e02129.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4dae5db8-7731-46bb-98b9-7798d0328c20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4dc68277-2f5a-424d-b57f-67a5b92a7487.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4dde94cb-c39c-493e-973e-87604b0b714b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4e048d0b-f95e-410e-8f47-64fdc47bd142.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4e2d771a-648e-4712-86d6-f3f9c246b492.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4e566a51-2b52-4eb0-9f1e-c4dead6279f8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4e7d38cd-3ba1-4629-8739-9acb3f7d0b99.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4e9cc64c-c2e5-4c88-97cd-e8fe92960fee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4ec1d086-9d66-4dea-9cb2-f2c9b31021f8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4f0162d6-4572-477a-b364-611276bed3b3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4f33252f-beb6-4d5e-8663-18360a41316a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4f4b0f8a-0b77-4f2f-a563-7383a5f45236.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4f6f922f-c56d-44a5-bfd7-4c3e09ca0a36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4f970c5a-da8f-4b01-b088-5e85292d0cf5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4fc75b93-6262-4018-a657-cade15b16f62.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4fded94c-f69e-4539-960c-be6418a757ed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/4ff60fb2-7340-4286-aec6-85dc35e50fcb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5a14a21c-6727-4650-9e6c-d7a6d9729d41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5a31e339-4ad6-4561-b63d-1923ec41caca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5a5fc30a-7679-4ccc-99bb-fef9f2107bca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5a80c22d-c9c3-4bbb-b20e-8b75ed3547f4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5aa218ff-cf87-4c2b-a39f-7c427534d4b4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5ac76917-7ca5-4e9a-b9b5-c461abe3ebe3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5b0a089e-192d-4fc9-8a8b-594e211962a4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5b258ae8-4525-4a99-a00c-8a4803f57a93.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5b3a059f-4045-4244-b505-d782688dcdc9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5b5bc8c5-caa3-4659-ab44-b371a7c8f244.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5b863a66-066e-48ba-ae50-5072dd1e445f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5ba531da-beeb-460f-a06c-f736bb29dcad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5bbf17dd-83aa-448e-89f8-4822732ebfbc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5be38742-b675-4c69-a8c8-1e97ef57789a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5c10d8f9-2324-4d2e-8664-8053919d90d9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5c34f674-3ccd-462e-9131-9caf20f1f3b9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5c582079-bdad-41e7-b89f-c629dae85d94.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5c7f211b-3e2f-4041-8f1c-92dbd9cd1384.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5ca7fc5d-937b-49b2-88f0-5b2e49796aa0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5cd935dd-01b8-48f5-8bbd-a51bfd0c8487.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5cfc7a0e-eadf-4925-95d4-5ff6b2d89324.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5d337efd-5b8b-4988-977b-61778a07b7ec.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5d5274b3-d9da-4f83-9262-f241f572a2de.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5d8012bc-3d38-4595-96dc-a25db773d51e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5d9c871f-9a5f-4aeb-af86-07967adf4861.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5dc35a64-6159-4aef-9ee0-785bbe802869.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5dd5e229-01f3-4c1a-8db8-f486a657861e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5e0b541a-43f3-48e3-86ab-6b9a36c290ed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5e5b4690-e1b0-46f3-b211-9bab365337b5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call/5e7d89ab-6cb3-43b8-b575-88e692d055d1.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/create_dataset.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2ntMbEQWhpJoBd1rJpbWwQXcFOi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.create_dataset.executor&quot;: &quot;Run&quot;,
+    &quot;Python.detector.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/danya/my_works/python_projects/hand_detector&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="create_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hand_detector" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_dataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="detector" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hand_detector" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detector.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hand_detector" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.create_dataset" />
+        <item itemvalue="Python.detector" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-884f5ed5d46b-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.22855.92" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8439baf-f166-4125-a7e4-0482b70fd3cd" name="Changes" comment="" />
+      <created>1729787988190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729787988190</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Готово распознавание 6 жестов">
+      <option name="closed" value="true" />
+      <created>1729795128765</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729795128765</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Готово распознавание 6 жестов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Готово распознавание 6 жестов" />
+  </component>
+</project>
