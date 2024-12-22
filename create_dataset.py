@@ -4,48 +4,45 @@ import cv2
 from urllib3.filepost import writer
 
 from detector import Detector
-from config import header
+from config import *
 
 
 
-def create_dataset(directories, files_col):
+def create_dataset(name, directories, base_directory, files_col, mode):
     detector = Detector(is_static=True, max_hands=1)
-    with open('dataset.csv', 'w') as file:
+    with open(name, mode) as file:
         writer = csv.writer(file)
 
-        writer.writerow(header.split(','))
-
+        if mode == 'w':
+            writer.writerow(list(filter(lambda x: 'z' not in x, header.split(','))))
         if directories:
             for directory in directories:
                 counter = 0
-                for filename in os.listdir(directory):
+                for filename in os.listdir(f'{base_directory}/{directory}'):
                     if files_col <= counter:
                         break
-                    img = cv2.imread(f'{directory}/{filename}')
+                    img = cv2.imread(f'{base_directory}/{directory}/{filename}')
                     relative = detector.get_relative_coordinates(img)
                     if relative:
-                        relative[0].append(directory)
-                        writer.writerow(relative[0])
-                    counter += 1
+                        line = []
+
+                        for key, val in relative.items():
+                            for i in val:
+                                line.append(i[0])
+                                line.append(i[1])
+                                # line.append(i[2])
+                        line.append(directory)
+                        writer.writerow(line)
 
 
-def add_into_dataset(directories, files_col):
-    detector = Detector(is_static=True, max_hands=1)
-    with open('dataset.csv', 'a') as file:
-        writer = csv.writer(file)
-        if directories:
-            for directory in directories:
-                counter = 0
-                for filename in os.listdir(directory):
-                    if files_col <= counter:
-                        break
-                    img = cv2.imread(f'{directory}/{filename}')
-                    relative = detector.get_relative_coordinates(img)
-                    if relative:
-                        relative[0].append(directory)
-                        writer.writerow(relative[0])
                     counter += 1
+
 
 
 if __name__ == '__main__':
-    create_dataset(['dislike', 'like', 'rock', 'call', 'ok', 'peace'], files_col=100)
+    a = input('sure?')
+    if a == 'yes':
+        create_dataset(name='gestures_dataset.csv', directories=gestures,
+                       base_directory='./training_data/gestures', files_col=333, mode='w')
+        create_dataset(name='fingers_dataset.csv', directories=fingers,
+                       base_directory='./training_data/fingers', files_col=333, mode='w')
